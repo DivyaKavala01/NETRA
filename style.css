@@ -84,10 +84,45 @@ button{
         font-family: monospace;
         margin-left: 10px;
     }
+.page{
+    padding: 35px 5%;
+}
+.page p{
+    color: rgb(138, 192, 169);
+}
+.kpi-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 30px;
+}
+.kpi-card{
+    background-color: rgb(50, 50, 66);
+    border:1px solid rgb(169, 205, 242);
+    border-radius: 12px;
+    padding: 20px;
+    transition: 0.2s;
+}
+.kpi-card:hover{
+    border-color: beige;
+    
+    
+}
+.kpi-card span{
+    color: rgba(137, 166, 167, 0.622);
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1 px;
 
+}
+.kpi-card h1{
+    color: rgb(146, 146, 211);
+    font-size: 29px;
+    margin: 14px 0 8px;
+}
 
-
-
-
-
+.kpi-card p{
+    color: rgba(216, 216, 219, 0.894);
+    font-weight: 12px;
+}
 
